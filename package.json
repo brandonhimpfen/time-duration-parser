@@ -1,0 +1,34 @@
+{
+  "name": "time-duration-parser",
+  "version": "0.1.0",
+  "description": "Parse human-readable time durations like 5m, 2h, and 1d into milliseconds.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "time",
+    "duration",
+    "parser",
+    "milliseconds",
+    "utility",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandonhimpfen/time-duration-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brandonhimpfen/time-duration-parser/issues"
+  },
+  "homepage": "https://github.com/brandonhimpfen/time-duration-parser#readme",
+  "author": "Brandon Himpfen",
+  "license": "MIT"
+}
